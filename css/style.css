@@ -35,3 +35,7 @@ nav{
 	justify-content: space-around;
 	background-color: #E9E9E9;
 }
+
+textarea{
+	resize: none;
+}
