@@ -7,6 +7,8 @@ body{
 	margin: 0px;
 	font-family: 'MaPolice', Helvetica,sans-serif;
 	padding: 0px;
+	background-color: #F0F0EB;
+	display: flex;
 }
 
 #container{
@@ -42,8 +44,53 @@ nav{
 	background-color: #F0F0EB;
 }
 
+article{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 
+}
+h1{
+	text-align: center;
+	width: 100%;
+}
+strong{
+	color : red;
+}
 
 textarea{
 	resize: none;
+}
+
+#images{
+	background-color: #F0F0EB;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 80%;
+	border-top: 1px black solid;
+	padding-top: 30px;
+}
+
+img{
+	border : 1px solid black;
+	padding : 5px;
+	background-color: white;
+}
+
+#bieres{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+p{
+	width: 75%;
+}
+
+#prix {
+	width: 24%;
+	border : 1px solid black;
+	color : white;
+	background-color: black;
 }
